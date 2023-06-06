@@ -9,7 +9,8 @@
 '''
 
 from Viewer.controller import SimpleViewer
-from answer_task1 import *
+# from answer_task1 import *
+from Lab2_task1 import *
 import numpy as np
 
 class ShowBVHUpdate():

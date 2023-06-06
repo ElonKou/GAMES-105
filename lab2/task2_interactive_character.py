@@ -1,5 +1,6 @@
 from Viewer.controller import SimpleViewer, Controller
-from answer_task2 import *
+# from answer_task2 import *
+from Lab2_task2 import *
 
 class InteractiveUpdate():
     def __init__(self, viewer, controller, character_controller):

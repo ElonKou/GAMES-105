@@ -1,6 +1,8 @@
 from task1_forward_kinematics import *
 from scipy.spatial.transform import Rotation as R
-from Lab2_IK_answers import *
+# from Lab2_IK_answers import *
+from Lab1_IK import *
+
 class MetaData:
     def __init__(self, joint_name, joint_parent, joint_initial_position, root_joint, end_joint):
         """
@@ -170,7 +172,7 @@ def main():
     # part1
     # part1_simple(viewer, np.array([0.5, 0.75, 0.5]))
     # part1_hard(viewer, np.array([0.5, 0.5, 0.5]))
-    # part1_animation(viewer, np.array([0.5, 0.5, 0.5]))
+    part1_animation(viewer, np.array([0.5, 0.5, 0.5]))
     
     # part2
     # part2(viewer, 'data/walk60.bvh')

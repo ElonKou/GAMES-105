@@ -334,6 +334,7 @@ class SimpleViewer(ShowBase):
         body_rot = info.get('body_ori', None)
         
         joint, body = [], []
+        print(body_pos)
         
         thickness = 0.03
         # joint_name = ['RootJoint'] + joint_name
